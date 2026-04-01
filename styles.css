@@ -4,12 +4,12 @@
 
 :root {
   /* Brand colors - generated from form inputs */
-  --dark: #1e0101;
-  --primary: #298e29;
-  --primary-600: #258025;
-  --primary-700: #1f6a1f;
-  --accent: #37a537;
-  --light: #dfeedf;
+  --dark: #281d0b;
+  --primary: #a1722b;
+  --primary-600: #916727;
+  --primary-700: #795620;
+  --accent: #ba873b;
+  --light: #f1eadf;
   --grey: #f2f2f2;
 
   /* Neutrals */
@@ -612,7 +612,7 @@ button {
 .header__nav a {
   font-size: 16px;
   font-weight: 600;
-  color: #1e0101;
+  color: #281d0b;
   position: relative;
   padding: 0;
   transition: color 0.2s ease;
@@ -621,7 +621,7 @@ button {
 }
 
 .header__nav a:hover {
-  color: #298e29;
+  color: #a1722b;
 }
 
 .header__hamburger {
@@ -2950,9 +2950,9 @@ body.dark-mode-loaded .btn {
 
 /* Color Mode - CSS variables */
 body.color-mode {
-  --color-nav-bar: #207720;
-  --color-btn-light: #83cf83;
-  --color-section-tint: #f3f8f3;
+  --color-nav-bar: #865e21;
+  --color-btn-light: #dbc39e;
+  --color-section-tint: #f8f6f3;
 }
 
 /* Color Mode - Sections that use grey background get the tint instead */
@@ -2961,17 +2961,17 @@ body.color-mode .section--services,
 body.color-mode .section--portfolio,
 body.color-mode .header__nav-container,
 body.color-mode .faq-item {
-  background: #f3f8f3;
+  background: #f8f6f3;
 }
 
 body.color-mode .faq-item.active {
-  background: #f3f8f3;
+  background: #f8f6f3;
   filter: brightness(0.97);
 }
 
 /* Color Mode - Pre-footer quote form uses tint (same as other grey sections) */
 body.color-mode .section--prefooter {
-  background: #f3f8f3;
+  background: #f8f6f3;
 }
 
 /* Color Mode - Ready to Talk CTA and footer use primary color */
@@ -3062,13 +3062,13 @@ body.color-mode .split--reverse .split__media--tall img {
 
 /* Color Mode - Benefits icons: tint background, primary icon color */
 body.color-mode .stat-item__icon {
-  background: #f3f8f3;
+  background: #f8f6f3;
   color: var(--primary);
 }
 
 /* Color Mode - Styled list icons: tint background, primary icon color */
 body.color-mode .list-check i,
 body.color-mode .coverage-item i {
-  background: #f3f8f3;
+  background: #f8f6f3;
   color: var(--primary);
 }
